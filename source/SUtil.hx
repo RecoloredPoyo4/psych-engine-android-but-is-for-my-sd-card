@@ -28,7 +28,7 @@ class SUtil
         } 
         else 
         {
-            aDir = "/storage/7F47-0B10/Android/data/" + Application.current.meta.get("packageName") + "files";
+            aDir = "/storage/7F47-0B10/Android/data/" + Application.current.meta.get("packageName") + "/files/";
         }
         return aDir;
         #else
